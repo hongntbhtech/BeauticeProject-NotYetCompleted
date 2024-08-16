@@ -1,0 +1,132 @@
+.About {
+    inline-size: 100%;
+}
+
+.Container_About {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 122px;
+
+}
+
+
+.background_bubble {
+    position: absolute;
+    z-index: -10;
+    margin-top: -307px;
+    width: 100%;
+    padding-left: 74px;
+
+}
+
+.background_bubble img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.About_left {
+    padding-left: 150px;
+    width: 100%;
+}
+
+
+
+.Title_about h2 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ff64ae;
+}
+
+.Title_about h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    color: #091156;
+    margin-top: -2px;
+}
+
+.Title_about p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    color: #8b8b8b;
+    margin-top: -5px;
+}
+
+.Button_LearnMore {
+    display: flex;
+    padding-top: 37px;
+
+}
+
+.btnLearnMore {
+    width: 200px;
+    height: 57px;
+    border-radius: 50px;
+    background-color: #FF64AE;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 1.6px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    /* margin-top: 36px; */
+}
+
+.Watch_Video {
+    display: flex;
+    padding-left: 44px;
+    padding-top: 4px;
+}
+
+.Watch_Video img {
+    width: 50px;
+    height: 49px;
+}
+
+
+.Watch_Video p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    color: #8b8b8b;
+    padding-left: 12px;
+    margin-top: 11px;
+}
+
+.LearnMore_Right {
+    padding-right: 74px;
+    margin-block-start: -18px;
+}
+
+@media screen and (max-width: 1200px) {
+    .Container_About {
+        padding: 45px 145px;
+        flex-wrap: wrap;
+    }
+
+    .About_left {
+        padding: 0;
+        width: 100%;
+    }
+
+    .LearnMore_Right {
+        padding: 0;
+    }
+
+    .LearnMore_Right img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Container_About {
+        padding: 45px;
+    }
+}
